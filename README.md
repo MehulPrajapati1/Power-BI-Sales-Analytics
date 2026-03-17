@@ -1,56 +1,44 @@
-Analytics
+# Sales Analytics Dashboard — Power BI
 
-🚀 Just completed my first Power BI dashboard project as part of my data analytics learning journey!
+## Business Problem
+A retail store needed visibility into product performance, city-level sales,
+discount impact, and period-over-period trends to make smarter inventory
+and pricing decisions.
 
+## Dashboard Preview
+![Sales Dashboard](Screenshot%202025-05-01%20230503.png)
 
+## Key Insights
+- **iPhone 14, MacBook Air, and Sony Bravia** are the top 3 products by revenue
+- **Colgate and Nivea** are bottom performers — candidates for promotional review
+- **Bangalore and Hyderabad** lead all cities in total sales volume
+- **Weekend Flash and Clearance** promotions carry the highest discount rates
+- Time-series analysis reveals clear **seasonal spikes** in Q4
 
+## Business Questions Answered
+1. Which are the top 5 and bottom 5 products by sales, profit, and quantity?
+2. How do sales trend over daily, monthly, and annual periods?
+3. What is the relationship between discount depth and profit margin?
+4. Which cities generate the most revenue?
+5. How does current period performance compare to the previous period?
 
+## Tools & Techniques
+| Tool | Usage |
+|---|---|
+| Power BI Desktop | Dashboard, bar charts, line trends, matrix |
+| DAX | Dynamic top/bottom N rankings, period comparisons |
+| Power Query | Data transformation and date table |
+| Excel | Source data — `Store+Data.xlsx` |
 
-📊 Business Requirements Given:
+## Files in this Repo
+- `Store+Data.xlsx` — raw sales dataset
+- `Top,Bottom 5 products.pbix` — Power BI source file
+- Dashboard screenshot included
 
-1-Top/Bottom 5 products by Sales, Profit, Quantity
+## Author
+**Mehul Prajapati** — BTech CSE, Dr. Ram Manohar Lohia Awadh University (2026)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehulprajapati-)
+[![Portfolio](https://img.shields.io/badge/Portfolio-238636?style=flat&logo=googlechrome&logoColor=white)](https://mehulprajapati.lovable.app)
 
-2-Time-based Sales Trends (daily to annual)
-
-3-Sales vs Profit Relationship
-
-4-Period-over-Period Comparisons (custom date filters)
-
-5-Discounts by Category
-
-6-Total Orders
-
-7-Drill-down Table by Product, Date, Customer ID, Promotion
-
-8-City-level Sales Breakdown
-
-
-
-👨‍💻 Sharing my recent Power BI project with the data community! I explored product performance, discount impact, and city-wise sales trends in an interactive report.
-
-
-
-🧠 What I Delivered: 
-
-1-Using a structured PBIX dashboard,
-
-2-Applied DAX to create dynamic rankings and aggregations.
-
-3-Built slicers for date range comparisons and multi-level filtering.
-
-4-Designed meaningful charts including bar graphs, line trends, and matrix views.
-
-5-Connected visual elements for interactive storytelling and insights.
-
-
-
-📈 Key Highlights:
-
-📌 Top Products by Sales: iPhone 14, MacBook Air, Sony Bravia.
-
-📉 Bottom Products: Colgate Toothpaste, Nivea Lotion.
-
-🌆 City Performance: Bangalore and Hyderabad lead in sales.
-
-💸 Highest Discounts: Found in ‘Weekend Flash’ & ‘Clearance’ categories.
-
+---
+`Power BI` `DAX` `Sales Analytics` `Retail` `Product Performance` `Power Query`
