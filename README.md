@@ -1,4 +1,4 @@
-# Sales Analytics Dashboard — Power BI
+# Sales Analytics Dashboard
 
 ## Business Problem
 A retail store needed visibility into product performance, city-level sales,
